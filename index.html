@@ -48,7 +48,7 @@
         <section class="main-hero">
             <div class="container flex-hero">
             <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="btn-first">Замовити послугу</button>
+            <button type="button" class="btn-first" data-modal-open>Замовити послугу</button>
             </div>
         </section>
 
@@ -448,5 +448,26 @@
     </div>  
     </footer>
 
+
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Cumque, laboriosam labore obcaecati iste libero, odio atque 
+                saepe eius minus corrupti illum fuga minima! Temporibus tempora 
+                facilis ducimus quaerat laboriosam quidem.
+            </p>
+            <button class="modal-btn">
+                <svg class=""data-modal-close width="18" height="18">
+                    <use href="./svg/icomoon/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+            
+        </div>
+
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
