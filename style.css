@@ -82,8 +82,8 @@ text-decoration: none;
 }
 
   .menu-list:hover:after  {
-    opacity: 1;
-    transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 1;
+  transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 
