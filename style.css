@@ -765,14 +765,14 @@ color: #757575;
 }
 
 .telephone-portfolio {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  text-decoration: none;
-  letter-spacing: 0.02em;
-  color: #757575;
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16 / 14);
+text-decoration: none;
+letter-spacing: 0.02em;
+color: #757575;
 }
 
 .telephone-portfolio:hover {
